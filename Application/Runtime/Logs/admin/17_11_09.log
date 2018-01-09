@@ -1,0 +1,24 @@
+[ 2017-11-09T11:08:21+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc  [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/admin/4aa567e08aa51c779963333816124366.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+

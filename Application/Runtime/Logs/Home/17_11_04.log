@@ -1,0 +1,140 @@
+[ 2017-11-04T09:52:47+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `type` = 0 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: topPicNews /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-11-04T09:52:49+08:00 ] 127.0.0.1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 8 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 20 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 36 行.
+NOTIC: [8] Undefined variable: thumb /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-11-04T09:52:53+08:00 ] 127.0.0.1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 8 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 20 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 36 行.
+NOTIC: [8] Undefined variable: thumb /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-11-04T09:53:04+08:00 ] 127.0.0.1 /index.php?c=detail&id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+ERR: 无法加载控制器:Detail
+
+[ 2017-11-04T09:53:08+08:00 ] 127.0.0.1 /index.php?c=detail&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载控制器:Detail
+
+[ 2017-11-04T09:53:11+08:00 ] 127.0.0.1 /index.php?c=detail&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载控制器:Detail
+
+[ 2017-11-04T09:53:15+08:00 ] 127.0.0.1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 8 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 20 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 36 行.
+NOTIC: [8] Undefined variable: thumb /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
